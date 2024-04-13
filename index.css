@@ -1,0 +1,90 @@
+@import url('https://fonts.cdnfonts.com/css/cursed-timer-ulil');
+
+body {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: #1B244A;
+    color: white;
+}
+
+.hero{
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ width: 600px;
+ height: auto;
+ margin: 0 auto;
+ max-width: 100%;
+ border: 7px solid white;
+}
+
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+   
+
+}
+
+h3 {
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.score {
+    background: #0a0001;
+    border-radius: 5px;
+    font-size: 80px;
+    color: #F94F6D;
+    text-align: center;
+    width: 150px;
+    margin: 0 30px 20px 20px;
+    padding: 10px; 
+    font-family: 'Cursed Timer ULiL', sans-serif;
+  
+}
+
+.btn {
+    margin: 0 5px 10px 5px;
+    background: none;
+    border: 0.5px solid #fff;
+    color: #fff;
+    border-radius: 5px;
+    width: 45px;
+    height: 40px;
+    font-size: 18px;
+    text-align: center;
+    font-weight: 400;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+}
+
+.btn:hover {
+    background: #0284C7
+}
+
+#new-game {
+    width: auto;
+    margin: 10px;
+    background: none;
+    border: 2px solid #9AABD8;
+    color: #ffffff;
+    font-family: Verdana; 
+    font-size: 20px;
+    font-weight: 700;
+    position: relative;
+    justify-content: center;
+}
+
+#new-game:hover{
+    border: 5px solid #b9c9f5;
+}
+
+@media (max-width: 500px) {
+    .container {
+        flex-direction: column; /* Stack scoreboards vertically on smaller screens */
+        align-items: center; /* Center align scoreboards */
+        text-align: center;
+        margin: 0px auto;
+    }
+    }
